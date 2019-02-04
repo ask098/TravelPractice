@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My test suite]">
+  <parameter name="driver" value="firefox"/>
+  <parameter name="url" value="https://www.travelocity.com//"/>
+  <test name="My first test(failed)">
+    <classes>
+      <class name="com.jcastro.travel.test.TravelTest">
+        <methods>
+          <include name="Search"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.jcastro.travel.test.TravelTest -->
+    </classes>
+  </test> <!-- My first test(failed) -->
+</suite> <!-- Failed suite [My test suite] -->
